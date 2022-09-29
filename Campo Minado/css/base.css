@@ -1,0 +1,96 @@
+
+html,body{
+	margin: 0px; padding: 0px;
+	font-family: 'Roboto Slab', Roboto, sans-serif;
+	font-size: 15px;
+    background: #EDEDED;
+    color: #171717;
+}
+
+header{
+    position: fixed;
+    top: 0px;    
+    z-index: 2;
+    width: 100%;
+    height: 78px;
+    background-color: #444444;
+}
+
+.logo{
+    width: 60px;
+    padding: 7px;
+}
+
+header>nav{
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    display: flex;
+}
+
+nav>ul{
+    margin-left: auto;
+}
+
+
+.link-menu{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+.op-menu{
+    list-style-type: none;
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.lbl-link:hover{
+    border-bottom: 1px solid #babaca;
+}
+
+.exit>a{
+    width: 100px;
+    border: 1px solid #babaca;
+    border-radius: 5px;
+}
+.exit>a:hover{
+    box-shadow: 0px 0px 10px 0px #babaca;
+    border-radius: 5px;
+}
+
+.cl{ clear: both;}
+.fl{ float: left;}
+.fr{ float: right;}
+.display-flex{ display: flex;}
+.center-text{ text-align: center;}
+.justify-text{ text-align: justify;}
+.first-item{ margin-top: 78px;}
+
+.center-h{
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.center-hv{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+.center-v{
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+footer{
+    width: 100%;
+    padding: 0px;
+    border: none;
+    position: relative;
+    bottom: 0px;
+}

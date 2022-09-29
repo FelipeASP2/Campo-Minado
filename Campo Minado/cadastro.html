@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+
+<body> 
+
+<form name="meuForm" method="post" action="php/cadastro.php" id="formulario">
+<div class="box">
+
+<img class="displayed" src="img/logo.png" alt="bomba" width="110">
+<fieldset>
+    <div>
+  <h1>Cadastro</h1>
+    </div>
+    <div>
+   <label>
+      <span>Nome Completo</span>
+      <input type="text" class="input_text" name="nome" id="name" >
+    </label>
+    </div>
+    <div>
+    <label>
+      <span>Data de Nascimento</span>
+      <input type="text" class="input_text" name="data" id="date">
+     </label>
+    </div>
+    <div>
+     <label>
+      <span>CPF</span>
+      <input type="text" class="input_text" name="CPF" id="comprovante">
+     </label>
+     </div>
+    <div>
+     <label>
+      <span>Telefone</span>
+      <input type="text" class="input_text" name="telefone" id="phone">
+     </label>
+     </div>
+
+     <div>
+     <label>
+      <span>E-mail</span>
+      <input type="text" class="input_text" name="e-mail" id="email"/>
+     </label>
+    </div>
+
+    <div>
+     <label>
+      <span>Username</span>
+      <input type="text" class="input_text" name="username" id="login"/>
+     </label>
+      </div>
+
+      <div>
+     <label>
+      <span>Senha</span>
+      <input type="text" class="input_text" name="senha" id="pass"/>
+     </label>
+     </div>
+
+     <div style="width: 110px;margin: auto;">
+      <input type="submit" class="button" value="Enviar" />
+    </div>
+    
+    
+  </fieldset>
+    
+    
+    <p class="center-text">Já possui uma conta? <br>
+    <a href="index.html" class="center-text">Faça login aqui!</a>
+    </p>
+
+</div>
+</form>
+</body>
+</html>

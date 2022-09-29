@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Login</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+
+<br />
+
+<div class="image">
+<a><img src="img/logo.png" alt="Bombinha" width="200" /> </a>
+</div>
+
+<h1>Login</h1>
+<p>Insira os dados abaixo para continuar</p>
+<br />
+
+<div class="input">
+<form method="post" action="php/login.php">
+    <label for="fname">Username:</label>
+<br>
+    <input type="text" id="fname"
+name="fname" placeholder="Username" required><br>
+    <label for="lname">Senha:</label>
+<br>
+    <input type="password" id="lname"
+name="lname" placeholder="Senha" required>
+    
+    <div class="Pronto">
+        <input type="submit" class="btnPronto" value="Pronto!">
+    </div>
+</form>
+</div>
+
+
+
+<br />
+
+<p class="Menor">Não possui uma conta?</p>
+
+<a href="cadastro.html" class="center-text">Cadastre-se aqui!</a>
+
+</body>
+
+</html>
